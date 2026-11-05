@@ -6,3 +6,6 @@
 - `include/strings.h` — интерфейс модуля
 - `src/strings.c` — реализация
 - `src/main.c` — автоматические тесты
+## Сборка и запуск
+gcc -std=c99 -Wall -Wextra -Iinclude src/strings.c src/main.c -o substr_test
+./substr_test
