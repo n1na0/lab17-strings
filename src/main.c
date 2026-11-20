@@ -39,7 +39,20 @@ int main(void) {
         {-6, -4, "1234"},
         {-6, -20, "01234"},
         {-20, -2, ""}
-    };
+    };  
+
+    /*TestCase tests[] = {
+        {3, 2, "DE"},
+        {4, 3, "EFG"},
+        {4, 0, "EFGHIJ"},
+        {4, 100, "EFGHIJ"},
+        {-1, 1, "J"},
+        {-3, 2, "HI"},
+        {-3, 0, "HIJ"},
+        {4, -3, "CDE"},
+        {12, -5, "IJ"},
+        {100, -3, ""}
+    }; */
     
     int total = sizeof(tests) / sizeof(tests[0]);
     int passed = 0;
